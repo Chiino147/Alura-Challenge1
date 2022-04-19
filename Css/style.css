@@ -152,46 +152,30 @@ footer a:hover {
     font-size: 90p;
 }
 
-@media (max-width: 849px) {
+@media (max-width: 768px) {
     main {
         display: flex;
-        flex-direction: column;
-    }
-    #outMensaje {
-        width: 100%;
-    }
-    #inputMensajeUser {
-        width: 200%;
-        text-align: center;
-    }
-    #botones {
-        justify-content: center;
-        width: 200%;
-        padding: 20px;
-        font-size: 25px;
-    }
-    #btnEncriptar {
-        width: 200px;
-        font-size: 30px;
-    }
-    #btnDesencriptar {
-        width: 200px;
-        font-size: 30px;
-    }
-    #outMensaje {
-        width: 100%;
-    }
-    #printMensaje {
-        width: 100%;
-        text-align: center;
-        font-size: 25px;
-    }
-    #inputMensajeUser {
-        font-size: 25px;
+        flex-direction: row;
     }
     footer {
         width: 100%;
     }
+    /*Div para el input*/
+    #inputMensajeUser {
+        width: 50vh;
+        height: 25vh;
+    }
+    /*Div para el print*/
+    #outMensaje {
+        width: 100vh;
+    }
+    #printMensaje {
+        width: 50vh;
+        height: 25vh;
+        text-align: center;
+        font-size: 25px;
+    }
+    /*Botones */
     #printMensaje::placeholder {
         font-size: 26px;
         font-weight: bold;
@@ -201,5 +185,79 @@ footer a:hover {
         font-size: 26px;
         font-weight: bold;
         color: rgb(100, 100, 247);
+    }
+    #botones {
+        justify-content: center;
+        width: 50vh;
+        padding: 20px;
+        font-size: 25px;
+    }
+    #btnEncriptar {
+        width: 48vh;
+        font-size: 30px;
+    }
+    #btnDesencriptar {
+        width: 48vh;
+        font-size: 30px;
+    }
+    #copyText {
+        width: 48vh;
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 1000px) and (orientation: landscape) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    /*Div para el input*/
+    #inputMensajeUser {
+        width: 100vh;
+        height: 25vh;
+        text-align: center;
+        font-size: 25px;
+    }
+    footer {
+        width: 100%;
+    }
+    /*Div para el print*/
+    #outMensaje {
+        width: 100%;
+    }
+    #printMensaje {
+        width: 100vh;
+        height: 25vh;
+        text-align: center;
+        font-size: 25px;
+    }
+    /*Botones */
+    #printMensaje::placeholder {
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #inputMensajeUser::placeholder {
+        font-size: 26px;
+        font-weight: bold;
+        color: rgb(100, 100, 247);
+    }
+    #botones {
+        justify-content: center;
+        width: 100vh;
+        padding: 20px;
+        font-size: 25px;
+    }
+    #btnEncriptar {
+        width: 48vh;
+        font-size: 30px;
+    }
+    #btnDesencriptar {
+        width: 48vh;
+        font-size: 30px;
+    }
+    #copyText {
+        width: 48vh;
+        font-size: 33px;
     }
 }
