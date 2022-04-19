@@ -1,5 +1,5 @@
 header {
-    padding: 0px;
+    padding: 20px;
     margin: 0px;
     background-color: rgb(255, 255, 255);
     width: 100%;
@@ -150,4 +150,56 @@ footer a {
 footer a:hover {
     color: rgb(129, 129, 129);
     font-size: 90p;
+}
+
+@media (max-width: 849px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    #outMensaje {
+        width: 100%;
+    }
+    #inputMensajeUser {
+        width: 200%;
+        text-align: center;
+    }
+    #botones {
+        justify-content: center;
+        width: 200%;
+        padding: 20px;
+        font-size: 25px;
+    }
+    #btnEncriptar {
+        width: 200px;
+        font-size: 30px;
+    }
+    #btnDesencriptar {
+        width: 200px;
+        font-size: 30px;
+    }
+    #outMensaje {
+        width: 100%;
+    }
+    #printMensaje {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+    }
+    #inputMensajeUser {
+        font-size: 25px;
+    }
+    footer {
+        width: 100%;
+    }
+    #printMensaje::placeholder {
+        font-size: 26px;
+        font-weight: bold;
+        text-align: center;
+    }
+    #inputMensajeUser::placeholder {
+        font-size: 26px;
+        font-weight: bold;
+        color: rgb(100, 100, 247);
+    }
 }
