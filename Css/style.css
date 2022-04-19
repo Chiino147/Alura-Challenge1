@@ -152,112 +152,172 @@ footer a:hover {
     font-size: 90p;
 }
 
-@media (max-width: 900px) {
-    main {
-        display: flex;
-        flex-direction: row;
-    }
-    footer {
-        width: 100vh;
-    }
-    /*Div para el input*/
-    #inputMensajeUser {
-        width: 50vh;
-        height: 25vh;
-    }
-    /*Div para el print*/
-    #outMensaje {
-        width: 100vh;
-    }
-    #printMensaje {
-        width: 50vh;
-        height: 25vh;
-        text-align: center;
-        font-size: 25px;
-    }
-    /*Botones */
-    #printMensaje::placeholder {
-        font-size: 26px;
-        font-weight: bold;
-        text-align: center;
-    }
-    #inputMensajeUser::placeholder {
-        font-size: 26px;
-        font-weight: bold;
-        color: rgb(100, 100, 247);
-    }
-    #botones {
-        justify-content: center;
-        width: 50vh;
-        padding: 20px;
-        font-size: 25px;
-    }
-    #btnEncriptar {
-        width: 48vh;
-        font-size: 30px;
-    }
-    #btnDesencriptar {
-        width: 48vh;
-        font-size: 30px;
-    }
-    #copyText {
-        width: 48vh;
-        font-size: 33px;
-    }
-}
 
-@media (max-width: 1000px) and (orientation: landscape) {
+/*Small mobile*/
+
+@media (min-width:300px) {
     main {
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
     }
-    /*Div para el input*/
+    /*Input mensaje*/
     #inputMensajeUser {
-        width: 100vh;
+        width: 50vh;
         height: 25vh;
         text-align: center;
-        font-size: 25px;
     }
-    footer {
-        width: 100%;
-    }
-    /*Div para el print*/
-    #outMensaje {
-        width: 100%;
-    }
+    /*Print mensaje*/
     #printMensaje {
-        width: 100vh;
+        width: 50vh;
         height: 25vh;
-        text-align: center;
-        font-size: 25px;
     }
-    /*Botones */
-    #printMensaje::placeholder {
-        font-size: 26px;
-        font-weight: bold;
-        text-align: center;
-    }
-    #inputMensajeUser::placeholder {
-        font-size: 26px;
-        font-weight: bold;
-        color: rgb(100, 100, 247);
-    }
+    /*Botones*/
     #botones {
-        justify-content: center;
-        width: 100vh;
-        padding: 20px;
-        font-size: 25px;
+        text-align: center;
+        width: 50vh;
     }
     #btnEncriptar {
-        width: 48vh;
-        font-size: 30px;
+        width: 50vh;
     }
     #btnDesencriptar {
-        width: 48vh;
-        font-size: 30px;
+        width: 50vh;
     }
     #copyText {
-        width: 48vh;
-        font-size: 33px;
+        width: 50vh;
+    }
+}
+
+@media (min-height:480px) and (orientation: landscape) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /*Input mensaje*/
+    #inputMensajeUser {
+        width: 50vh;
+        height: 25vh;
+        text-align: center;
+    }
+    /*Print mensaje*/
+    #printMensaje {
+        width: 50vh;
+        height: 45vh;
+    }
+    /*Botones*/
+    #botones {
+        text-align: center;
+        width: 50vh;
+    }
+    #btnEncriptar {
+        width: 50vh;
+    }
+    #btnDesencriptar {
+        width: 50vh;
+    }
+    #copyText {
+        width: 50vh;
+    }
+}
+
+
+/*Tablets*/
+
+@media (min-width:768px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /*Input mensaje*/
+    #inputMensajeUser {
+        width: 30vh;
+        height: 25vh;
+        text-align: center;
+    }
+    /*Print mensaje*/
+    #printMensaje {
+        width: 30vh;
+        height: 45vh;
+    }
+    /*Botones*/
+    #botones {
+        text-align: center;
+        width: 30vh;
+    }
+    #btnEncriptar {
+        width: 30vh;
+    }
+    #btnDesencriptar {
+        width: 30vh;
+    }
+    #copyText {
+        width: 30vh;
+    }
+}
+
+@media (min-height:768px) and (orientation: landscape) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /*Input mensaje*/
+    #inputMensajeUser {
+        width: 50vh;
+        height: 25vh;
+        text-align: center;
+    }
+    /*Print mensaje*/
+    #printMensaje {
+        width: 50vh;
+        height: 45vh;
+    }
+    /*Botones*/
+    #botones {
+        text-align: center;
+        width: 50vh;
+    }
+    #btnEncriptar {
+        width: 50vh;
+    }
+    #btnDesencriptar {
+        width: 50vh;
+    }
+    #copyText {
+        width: 50vh;
+    }
+}
+
+@media (min-width:1000px) {
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    /*Input mensaje*/
+    #inputMensajeUser {
+        width: 90%;
+        text-align: center;
+    }
+    /*Print mensaje*/
+    #printMensaje {
+        width: 90%;
+        height: 75%;
+    }
+    /*Botones*/
+    #botones {
+        text-align: center;
+        width: 100%;
+    }
+    #btnEncriptar {
+        width: 90%;
+    }
+    #btnDesencriptar {
+        width: 90%;
+    }
+    #copyText {
+        width: 100%;
     }
 }
