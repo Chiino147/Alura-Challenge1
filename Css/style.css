@@ -158,7 +158,7 @@ footer a:hover {
         flex-direction: row;
     }
     footer {
-        width: 100%;
+        width: 100vh;
     }
     /*Div para el input*/
     #inputMensajeUser {
