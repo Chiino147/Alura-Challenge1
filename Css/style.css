@@ -1,0 +1,124 @@
+header {
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header img {
+    display: flex;
+    width: 60px;
+    border-radius: 60px;
+}
+
+header h1 {
+    margin: 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+#inputMensaje {
+    text-align: center;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#inputMensajeUser {
+    border: 1px rgb(88, 71, 240) solid;
+    border-radius: 8px;
+}
+
+#textEncriptar {
+    border: 0px;
+    opacity: 0.8;
+}
+
+#textEncriptar::placeholder {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(100, 100, 247);
+}
+
+#outMensaje {
+    text-align: center;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: auto;
+}
+
+#inputMensaje button {
+    margin: 5px;
+}
+
+
+/*Botones */
+
+#btnEncriptar {
+    background-color: rgb(21, 2, 128);
+    color: #ffffff;
+    border: 0px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#btnEncriptar:hover {
+    font-size: medium;
+    font-weight: bold;
+}
+
+#btnDesencriptar {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 1px solid rgb(145, 134, 250);
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#btnDesencriptar:hover {
+    font-size: medium;
+    font-weight: bold;
+}
+
+
+/*Mostrar el resultado*/
+
+#printMensaje {
+    background-color: #ffffff;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 8px;
+}
+
+#printMensaje::placeholder {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*Footer*/
+
+footer {
+    padding: 0px;
+    margin-top: 13px;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(21, 2, 128);
+}
