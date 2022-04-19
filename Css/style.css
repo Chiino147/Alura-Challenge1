@@ -152,17 +152,17 @@ footer a:hover {
     font-size: 90p;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (orientation: landscape) {
     main {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     footer {
-        width: 110vh;
+        width: 100%;
     }
     /*Div para el input*/
     #inputMensajeUser {
-        width: 90vh;
+        width: 50vh;
         height: 25vh;
     }
     /*Div para el print*/
@@ -170,8 +170,7 @@ footer a:hover {
         width: 100vh;
     }
     #printMensaje {
-        text-align: center;
-        width: 90vh;
+        width: 50vh;
         height: 25vh;
         text-align: center;
         font-size: 25px;
@@ -185,12 +184,11 @@ footer a:hover {
     #inputMensajeUser::placeholder {
         font-size: 26px;
         font-weight: bold;
-        text-align: center;
         color: rgb(100, 100, 247);
     }
     #botones {
         justify-content: center;
-        width: 90vh;
+        width: 50vh;
         padding: 20px;
         font-size: 25px;
     }
