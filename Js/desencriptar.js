@@ -6,8 +6,9 @@ botton.addEventListener("click", function() {
     mostrarMensajeEncriptado(mensajeDesencriptado)
 })
 
-
+//Funcion que desencripta el mensaje
 function desencriptacion(msj) {
+    // ai lo busca en el texto y la g significa de global
     msj = msj.replace(/ai/g, "a")
     msj = msj.replace(/enter/g, "e")
     msj = msj.replace(/imes/g, "i")
@@ -17,7 +18,7 @@ function desencriptacion(msj) {
     return msj
 
 }
-
+//Funcion para mostrar el texto!
 function mostrarMensajeEncriptado(msj) {
     var mostrar = document.querySelector("#printMensaje")
     mostrar.textContent = msj

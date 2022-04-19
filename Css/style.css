@@ -97,6 +97,21 @@ main {
     font-weight: bold;
 }
 
+#copyText {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 1px solid rgb(145, 134, 250);
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#copyText:hover {
+    font-size: medium;
+    font-weight: bold;
+}
+
 
 /*Mostrar el resultado*/
 
@@ -121,4 +136,18 @@ footer {
     height: 60px;
     width: 100%;
     background-color: rgb(21, 2, 128);
+    text-align: center;
+    justify-content: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 50p;
+}
+
+footer a:hover {
+    color: rgb(129, 129, 129);
+    font-size: 90p;
 }

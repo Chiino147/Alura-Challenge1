@@ -6,7 +6,7 @@ botton.addEventListener("click", function() {
     mostrarMensajeEncriptado(mensajeEncriptado)
 })
 
-
+//Funcion para la encriptacion del mensaje
 function encriptacion(msj) {
     var txtEncriptar = [];
     for (i = 0; i <= msj.length; i++) {
@@ -37,12 +37,13 @@ function encriptacion(msj) {
     }
     console.log(txtEncriptar)
     var txtEncriptado = ""
+        //El array de letras se convierte en texto
     for (i = 0; i < txtEncriptar.length; i++)
         txtEncriptado = (txtEncriptado + txtEncriptar[i])
     console.log(txtEncriptado)
     return txtEncriptado
 }
-
+//funcion para mostrar el mensaje
 function mostrarMensajeEncriptado(msj) {
     var mostrar = document.querySelector("#printMensaje")
     mostrar.textContent = msj
