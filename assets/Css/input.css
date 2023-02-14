@@ -1,0 +1,53 @@
+#inputMensaje {
+    text-align: center;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+#inputMensajeUser {
+    border: 1px rgb(88, 71, 240) solid;
+    border-radius: 8px;
+}
+
+#inputMensaje button {
+    margin: 5px;
+}
+
+#textEncriptar {
+    border: 0px;
+    opacity: 0.8;
+}
+
+#textEncriptar::placeholder {
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(100, 100, 247);
+}
+
+
+/*Botones */
+
+#btnEncriptar {
+    background-color: rgb(21, 2, 128);
+    color: #ffffff;
+    border: 0px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#btnEncriptar:hover {
+    font-size: medium;
+    font-weight: bold;
+}
+
+#btnDesencriptar {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 1px solid rgb(145, 134, 250);
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.4s;
+}

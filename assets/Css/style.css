@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
+    width: 100%;
+}

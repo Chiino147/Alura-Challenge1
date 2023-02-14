@@ -1,0 +1,44 @@
+#outMensaje {
+    text-align: center;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    padding: auto;
+}
+
+
+/*Mostrar el resultado*/
+
+#printMensaje {
+    background-color: #ffffff;
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 8px;
+}
+
+#printMensaje::placeholder {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* Botones */
+
+#btnDesencriptar:hover {
+    font-size: medium;
+    font-weight: bold;
+}
+
+#copyText {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    border: 1px solid rgb(145, 134, 250);
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+#copyText:hover {
+    font-size: medium;
+    font-weight: bold;
+}

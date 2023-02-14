@@ -1,0 +1,51 @@
+@media screen and (max-width: 767px) {
+    body {
+        margin: 0px;
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    main {
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        width: 100%;
+        margin: 0px;
+    }
+    #inputMensaje {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+    }
+    #inputMensajeUser {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #textEncriptar::placeholder {
+        font-size: larger;
+        font-weight: 100px;
+        color: rgb(100, 100, 247);
+    }
+    #outMensaje {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #printMensaje {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    #inputMensaje button {
+        margin: 0px;
+    }
+}
