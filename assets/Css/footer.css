@@ -12,10 +12,10 @@ footer a {
     color: #ffffff;
     text-decoration: none;
     margin: 10px;
-    font-size: 50p;
+    font-size: 25px;
 }
 
 footer a:hover {
     color: rgb(129, 129, 129);
-    font-size: 90p;
+    font-size: 25px;
 }
